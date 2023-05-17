@@ -14,7 +14,7 @@ const Currency = () => {
         <div className='alert alert-secondary' style={{backgroundColor:'lightgreen'}}>
             <label style={{backgroundColor: 'lightgreen', color:'white'}}>
                 Currency  
-                <select name="currency" id="currency" onChange={event=>changeCurrency(event.target.value)}
+                <select className='dropdownIndicator' name="currency" id="currency" onChange={event=>changeCurrency(event.target.value)}
                     style={{backgroundColor:'lightgreen', color:'white', outlineStyle:'none', outline:'none', outlineColor:'lightgreen', outlineOffset:'none'}}
                 >
                     <option style={{color:'black'}} value="$">($ Dollar)</option>
